@@ -14,6 +14,21 @@ Segundo projeto da disciplina de Paradigmas de Programação. Este projeto imple
   7. Computa o produto cartesiano entre dois intervalos
   8. Gera uma imagem com um Diagrama de Venn
 
+### Estrutura do diretório
+
+├── .bsp
+├── .scala-build
+├── project
+├── src
+│   ├── main
+│   │   ├── scala
+|   |   |   ├── com  
+|   |   |   |   ├── example
+|   |   |   |   |   └── DesenhaImagem.scala
+|   |   |   |   |   └── DiagramaVenn.scala
+|   |   |   |   |   └── Intervalo.scala
+│   │   │   └── App.scala
+
 ### English
 
 Second assignement for the Programming Paradigms course. This project implements a class to model intervals of integers on the number line, as defined in Mathematics.
@@ -27,3 +42,18 @@ Second assignement for the Programming Paradigms course. This project implements
   6. Computes the difference between two intervals.
   7. Computes the Cartesian product of two intervals.
   8. Generates an image with a Venn Diagram.
+
+### Directory structure
+
+├── .bsp
+├── .scala-build
+├── project
+├── src
+│   ├── main
+│   │   ├── scala
+|   |   |   ├── com  
+|   |   |   |   ├── example
+|   |   |   |   |   └── DesenhaImagem.scala
+|   |   |   |   |   └── DiagramaVenn.scala
+|   |   |   |   |   └── Intervalo.scala
+│   │   │   └── App.scala
