@@ -15,19 +15,20 @@ Segundo projeto da disciplina de Paradigmas de Programação. Este projeto imple
   8. Gera uma imagem com um Diagrama de Venn
 
 ### Estrutura do diretório
+    
+    ├── .bsp
+    ├── .scala-build
+    ├── project
+    ├── src
+    │   ├── main
+    │   │   ├── scala
+    |   |   |   ├── com  
+    |   |   |   |   ├── example
+    |   |   |   |   |   └── DesenhaImagem.scala
+    |   |   |   |   |   └── DiagramaVenn.scala
+    |   |   |   |   |   └── Intervalo.scala
+    │   │   │   └── App.scala
 
-├── .bsp
-├── .scala-build
-├── project
-├── src
-│   ├── main
-│   │   ├── scala
-|   |   |   ├── com  
-|   |   |   |   ├── example
-|   |   |   |   |   └── DesenhaImagem.scala
-|   |   |   |   |   └── DiagramaVenn.scala
-|   |   |   |   |   └── Intervalo.scala
-│   │   │   └── App.scala
 
 ### English
 
@@ -45,15 +46,15 @@ Second assignement for the Programming Paradigms course. This project implements
 
 ### Directory structure
 
-├── .bsp
-├── .scala-build
-├── project
-├── src
-│   ├── main
-│   │   ├── scala
-|   |   |   ├── com  
-|   |   |   |   ├── example
-|   |   |   |   |   └── DesenhaImagem.scala
-|   |   |   |   |   └── DiagramaVenn.scala
-|   |   |   |   |   └── Intervalo.scala
-│   │   │   └── App.scala
+    ├── .bsp
+    ├── .scala-build
+    ├── project
+    ├── src
+    │   ├── main
+    │   │   ├── scala
+    |   |   |   ├── com  
+    |   |   |   |   ├── example
+    |   |   |   |   |   └── DesenhaImagem.scala
+    |   |   |   |   |   └── DiagramaVenn.scala
+    |   |   |   |   |   └── Intervalo.scala
+    │   │   │   └── App.scala
