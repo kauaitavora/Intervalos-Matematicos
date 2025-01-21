@@ -38,6 +38,7 @@ Intervalos podem ser definidos como \[10,14\], onde os limites são inclusivos, 
 
     val diagrama = new DiagramaVenn(490, 360, 300, 790, 360, 300)
     diagrama.desenhaDiagrama(diferenca_ab, diferenca_ba, interseccao)
+    ```
 
 ### Estrutura do diretório
     
@@ -93,6 +94,7 @@ Intervals can be defined as \[10,14\], where the boundaries are inclusive, or (1
 
     val diagrama = new DiagramaVenn(490, 360, 300, 790, 360, 300)
     diagrama.desenhaDiagrama(diferenca_ab, diferenca_ba, interseccao)
+    ```
 
 ### Directory structure
 
