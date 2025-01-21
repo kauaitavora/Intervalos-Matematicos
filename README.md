@@ -31,7 +31,7 @@ intervalo1.uniao(intervalo2)
 intervalo1.diferenca(intervalo2) 
 intervalo1.produtoCartesiano(intervalo2)
 
-// utizando a função de gerar o diagrama:
+// utilizando a função de gerar o diagrama de venn:
 val diferenca_ab = intervalo1.diferenca(intervalo2)
 val diferenca_ba = intervalo2.diferenca(intervalo1)
 val interseccao = intervalo1.interseccao(intervalo2)
@@ -39,22 +39,6 @@ val interseccao = intervalo1.interseccao(intervalo2)
 val diagrama = new DiagramaVenn(490, 360, 300, 790, 360, 300)
 diagrama.desenhaDiagrama(diferenca_ab, diferenca_ba, interseccao)
 ```
-
-### Estrutura do diretório
-    
-    ├── .bsp
-    ├── .scala-build
-    ├── project
-    ├── src
-    │   ├── main
-    │   │   ├── scala
-    |   |   |   ├── com  
-    |   |   |   |   ├── example
-    |   |   |   |   |   └── DesenhaImagem.scala
-    |   |   |   |   |   └── DiagramaVenn.scala
-    |   |   |   |   |   └── Intervalo.scala
-    │   │   │   └── App.scala
-
 
 ### English
 
@@ -87,7 +71,7 @@ intervalo1.uniao(intervalo2)
 intervalo1.diferenca(intervalo2) 
 intervalo1.produtoCartesiano(intervalo2)
 
-// Using the Venn Diagram
+// using the Venn Diagram
 val diferenca_ab = intervalo1.diferenca(intervalo2)
 val diferenca_ba = intervalo2.diferenca(intervalo1)
 val interseccao = intervalo1.interseccao(intervalo2)
@@ -96,7 +80,7 @@ val diagrama = new DiagramaVenn(490, 360, 300, 790, 360, 300)
 diagrama.desenhaDiagrama(diferenca_ab, diferenca_ba, interseccao)
 ```
 
-### Directory structure
+### Directory structure / Estrutura do diretório
 
     ├── .bsp
     ├── .scala-build
