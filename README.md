@@ -74,27 +74,27 @@ Second assignement for the Programming Paradigms course. This project implements
 
 Intervals can be defined as \[10,14\], where the boundaries are inclusive, or (10, 14), where the boundaries are exclusive.
 
-    ```scala
-    val intervalo1 = new Intervalo("(6, 12]")
-    val intervalo2 = new Intervalo("(14, 12]")
-    
-    // basic functionalities (following the features list order):
-    intervalo1.contem(11)
-    intervalo1.intercepta(intervalo2) or intervalo1.interseccao(intervalo2)
-    intervalo1.media()
-    intervalo1.produto(intervalo2) 
-    intervalo1.uniao(intervalo2) 
-    intervalo1.diferenca(intervalo2) 
-    intervalo1.produtoCartesiano(intervalo2)
+```scala
+val intervalo1 = new Intervalo("(6, 12]")
+val intervalo2 = new Intervalo("(14, 12]")
 
-    // Using the Venn Diagram
-    val diferenca_ab = intervalo1.diferenca(intervalo2)
-    val diferenca_ba = intervalo2.diferenca(intervalo1)
-    val interseccao = intervalo1.interseccao(intervalo2)
+// basic functionalities (following the features list order):
+intervalo1.contem(11)
+intervalo1.intercepta(intervalo2) or intervalo1.interseccao(intervalo2)
+intervalo1.media()
+intervalo1.produto(intervalo2) 
+intervalo1.uniao(intervalo2) 
+intervalo1.diferenca(intervalo2) 
+intervalo1.produtoCartesiano(intervalo2)
 
-    val diagrama = new DiagramaVenn(490, 360, 300, 790, 360, 300)
-    diagrama.desenhaDiagrama(diferenca_ab, diferenca_ba, interseccao)
-    ```
+// Using the Venn Diagram
+val diferenca_ab = intervalo1.diferenca(intervalo2)
+val diferenca_ba = intervalo2.diferenca(intervalo1)
+val interseccao = intervalo1.interseccao(intervalo2)
+
+val diagrama = new DiagramaVenn(490, 360, 300, 790, 360, 300)
+diagrama.desenhaDiagrama(diferenca_ab, diferenca_ba, interseccao)
+```
 
 ### Directory structure
 
